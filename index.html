@@ -20,47 +20,81 @@
         }
         .inner {
             font-size: 100px;
+            background-color: coral;
+            height: 500px;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+        button {
+            background-color: blue;
+            color: white;
+            font-family: sans-serif;
+            padding: 10px 40px;
+            margin: 10px;
+            border-radius: 20px;
+            border: 5px solid;
+        }
+        .Position {
+            background-color: cornflowerblue;
+            color: white;
+            height: 300px;
+        }
+        .Relative { 
+            background-color: rgb(64, 99, 68);
+            height: 100px;
+        }
+        .Absolute {
+            background-color: turquoise;
+            height: 100px;
         }
     </style>
 </head>
 <body>
+    
+    <!-- Understanding Positions -->
+    <div class="Position">
+        <div class="Relative">RELATIVE</div>
+        <div class="Absolute">ABSOLUTE</div>
+    </div>
+
    <!-- this element does not having closing tag
      <img src="" alt="">  -->
     <!-- using semantic html elements -->
-    <div>
-        <header>
-            <nav></nav>
-        </header>
-            <section>
-                <div>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quasi hic impedit eum architecto animi veritatis itaque praesentium. Voluptas
-                        ipsum provident, hic consequatur accusantium dolor ex facere delectus et culpa.
-                    </p>
-                </div>
-            </section>
-            <section>
+        <div>
+            <header>
+                <nav></nav>
+            </header>
+                <section>
+                    <div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quasi hic impedit eum architecto animi veritatis itaque praesentium. Voluptas
+                            ipsum provident, hic consequatur accusantium dolor ex facere delectus et culpa.
+                        </p>
+                    </div>
+                </section>
+                <section>
 
-            </section>
-            <section>
+                </section>
+                <section>
 
-            </section>
-        <footer>
+                </section>
+            <footer>
 
-        </footer>
-    </div>
-<!-- Understanding css units -->
-    <section>
-        <div class="one-rem">1rem</div>
-        <div class="one-em">1em</div>
-        <br>
-        <div class="top-inner">
-            <div class="inner">
-                <div class="one-rem">child 1rem</div>
-                <div class="one-em">child 1em</div>
-            </div>    
+            </footer>
         </div>
-    </section>
+    <!-- Understanding css units -->
+        <section>
+            <div class="one-rem">1rem</div>
+            <div class="one-em">1em</div>
+            <br>
+            <div class="top-inner">
+                <div class="inner">
+                    <div class="one-rem">child 1rem</div>
+                    <div class="one-em">child 1em</div>
+                </div>    
+            </div>
+        </section>
 
    
     <div>
