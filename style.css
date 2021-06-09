@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap');
+body {
+    background: #000000;
+}
+p {
+    font-size: 16px;
+}
+h1, h2, h3, {
+    font-family: 'Sen', sans-serif;
+}
+.navbar {
+    position: absolute;
+    width: 100%;
+}
+img {
+    max-width: 100%;
+}
+/* .heroSection {
+    height: 100vh;
+} */
+.heroSection .custom-bg {
+    background: rgb(23, 23, 31);
+}
+.heroSection h1 {
+    font-size: 76px;
+}
+.heroSection h1 span {
+    color: rgba(255, 255, 255, 0.5);
+}
+.heroSection p {
+    font-size: 18px;
+}
+.nav-item:last-child {
+    background: #5221e6;
+}
+nav {
+    border-top: 5px solid #5221e6;
+}
+.work h2, .blog h2, .skills h2, .contact h2 {
+    font-size: 55px;
+}
+.work p small {
+    font-size: 18px;
+    color: #8491a0;
+    font-weight: bold;
+}
+.work .number-head {
+    font-size: 117px;
+    color: #8491a0;
+    line-height: initial;
+}
+.work .sub-head {
+    font-size: 24px;
+}
+.work .google {
+    color: #3cc74e;
+}
+.work .facebook {
+    color: #609bff;
+}
+.work .dribbble {
+    color: #e95d90;
+}
+.blog .custom-bg,.blog .insta-bg {
+    background: #fff3e4;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.blog .custom-bg p, .blog .insta-bg p {
+    color: #5b6876;
+    font-size: 18px;
+}
+.blog a {
+    padding: 10px 0;
+    text-decoration: none;
+    border-bottom: 1px solid #5b6876;
+    color: #5b6876;
+    font-size: 16px;
+}
+.blog a:hover {
+    background: #5221e6;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+.blog .insta-bg {
+    background: #fbe4ff;
+}
+.skills p, .contact p, footer p {
+    color: #8491a0;
+    font-size: 18px;
+}
+.skills h3 {
+    font-size: 24px;
+}
+input, textarea {
+    background: #181823 !important;
+    border: none !important;
+    color: white !important;
+}
+.contact button {
+    background: #5221e6;
+    font-size: 18px;
+    font-family: 'Sen', sans-serif;
+}
+footer {
+    background: #181823;
+}
+footer ul li {
+    list-style: none;
+    color: white;
+    font-size: 16px;
+    margin: 14px 0;;
+}
+@media (max-width:800px) {
+    .heroSection {
+        height: auto;
+    } 
+    .heroSection h1 {
+        font-size: 36px;
+    }  
+    .work h2, .blog h2, .skills h2, .contact h2 {
+        font-size: 25px;
+    }
+    .work .number-head {
+        font-size: 73px;
+        color: #8491a0;
+        line-height: initial;
+    }
+}
