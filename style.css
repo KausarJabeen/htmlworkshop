@@ -36,10 +36,10 @@ img {
 nav {
     border-top: 5px solid #5221e6;
 }
-.work h2, .blog h2, .skills h2, .contact h2 {
+.work h2, .blog h2, .skills h2, .projects h2, .contact h2 {
     font-size: 55px;
 }
-.work p small {
+.work p small, .projects p {
     font-size: 18px;
     color: #8491a0;
     font-weight: bold;
@@ -93,6 +93,13 @@ nav {
 }
 .skills h3 {
     font-size: 24px;
+}
+.clients ul {
+padding-left: 0;
+}
+.clients ul li {
+    list-style: none;
+    border: 1px solid #181823;
 }
 input, textarea {
     background: #181823 !important;
