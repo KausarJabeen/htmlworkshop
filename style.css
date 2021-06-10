@@ -2,10 +2,10 @@
 body {
     background: #000000;
 }
-p {
+p,  nav ul li {
     font-size: 16px;
 }
-h1, h2, h3, {
+h1, h2, h3, nav ul li {
     font-family: 'Sen', sans-serif;
 }
 .navbar {
@@ -127,5 +127,12 @@ footer ul li {
         font-size: 73px;
         color: #8491a0;
         line-height: initial;
+    }
+    nav{
+        background: #5221e6;
+        border: none;
+    }
+    .nav-item:last-child {
+        background: none;
     }
 }
