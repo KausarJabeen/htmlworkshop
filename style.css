@@ -8,18 +8,31 @@ p,  nav ul li {
 h1, h2, h3, nav ul li {
     font-family: 'Sen', sans-serif;
 }
+
+nav {
+    border-top: 5px solid #5221e6;
+}
+.nav-item:last-child {
+    background: #5221e6;
+}
 .navbar {
-    position: absolute;
+    /* position: absolute; */
+    position: fixed;
     width: 100%;
 }
 img {
     max-width: 100%;
 }
-/* .heroSection {
-    height: 100vh;
-} */
+.heroSection img {
+    position: relative;
+    top: 10%;
+    left: 30%;
+}
 .heroSection .custom-bg {
     background: rgb(23, 23, 31);
+}
+.heroSection .intro {
+    position: relative;
 }
 .heroSection h1 {
     font-size: 76px;
@@ -30,12 +43,7 @@ img {
 .heroSection p {
     font-size: 18px;
 }
-.nav-item:last-child {
-    background: #5221e6;
-}
-nav {
-    border-top: 5px solid #5221e6;
-}
+
 .work h2, .blog h2, .skills h2, .projects h2, .contact h2 {
     font-size: 55px;
 }
@@ -91,7 +99,7 @@ nav {
     color: #8491a0;
     font-size: 18px;
 }
-.skills h3 {
+.skills h3, .projects h3 {
     font-size: 24px;
 }
 .clients ul {
@@ -100,6 +108,22 @@ padding-left: 0;
 .clients ul li {
     list-style: none;
     border: 1px solid #181823;
+}
+.projects .custom-bg {
+    background: #181823;
+}
+.projects .arrowDiv {
+    width: 40px;
+    background: #5221e6;
+    text-align: center;
+}
+.projects .all-projects {
+   width: 100%;
+   justify-content: center;
+}
+.projects .all-projects a {
+    border: 1px solid #5221e6; 
+    padding: 15px 24px;
 }
 input, textarea {
     background: #181823 !important;
@@ -124,11 +148,14 @@ footer ul li {
     .heroSection {
         height: auto;
     } 
+    .heroSection img {
+        position: static;
+    }
     .heroSection h1 {
         font-size: 36px;
     }  
-    .work h2, .blog h2, .skills h2, .contact h2 {
-        font-size: 25px;
+    .work h2, .blog h2, .skills h2, .contact h2, .projects h2 {
+        font-size: 35px;
     }
     .work .number-head {
         font-size: 73px;
